@@ -73,6 +73,8 @@ h1, h2, h3, h4, h5 {
 /* Headings */
 h1 p {
 	font-size: 80px;
+	text-align: center;
+	padding-right: 100px;
 }
 
 h2 {
@@ -87,7 +89,7 @@ p {
 /* Navigation Styling*/
 
 .part1 header nav a {
-	margin: 5px;
+	margin: 0 2.5%;
 	border: 1px;
 	padding: 20px;
 	color: grey;
@@ -95,15 +97,19 @@ p {
   }
 
 .part2 a {
-  margin: 10px;
   border: 1px solid black;
-  padding: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
   color: black;
   text-decoration: none;
 }
 
+
 .container{
 	margin-top: 50px;
+	padding-left: 65px;
 }
 /* Page Structure*/
 
@@ -121,18 +127,21 @@ section {
 }
 
 .part2 {
-	display: inline-flex;
+	display: flex;
+	justify-content: center;
 	padding-bottom: 50px;
 }
 
 .top {
-	  display:inline-flex;
+	  display: flex;
 	  border-top: 1px solid black;
+	  margin: 0 8%;
 }
 
 .bottom {
-	display: inline-flex;
+	display: flex;
 	border-bottom: 1px solid black;
+	margin: 0 8%;
 }
 
 /*Image Formatting*/
@@ -148,6 +157,9 @@ section {
 	text-align: right;
 }
 /*Footer Section*/
+footer {
+	margin: 0 8%;
+}
 .copyright {
 	padding: 20px 0;
 	text-align: center;
