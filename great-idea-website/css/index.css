@@ -54,7 +54,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -63,4 +63,113 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+
 /* Your code starts here! */
+
+.frame {
+	padding: 30px;
+}
+
+/* Headings */
+h1 p {
+	font-size: 80px;
+	text-align: center;
+	padding-right: 100px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+/* Body paragraphs*/
+p {
+	font-size: 15px;
+}
+
+/* Navigation Styling*/
+
+.part1 header nav a {
+	margin: 0 2.5%;
+	border: 1px;
+	padding: 20px;
+	color: grey;
+	text-decoration: none;
+  }
+
+.part2 a {
+  border: 1px solid black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: black;
+  text-decoration: none;
+}
+
+
+.container{
+	margin-top: 50px;
+	padding-left: 65px;
+}
+/* Page Structure*/
+
+section {
+	padding: 4%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.part1 {
+	display: inline-block;
+	width: 100%;
+	height: 50px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+
+.part2 {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 50px;
+}
+
+.top {
+	  display: flex;
+	  border-top: 1px solid black;
+	  margin: 0 8%;
+}
+
+.bottom {
+	display: flex;
+	border-bottom: 1px solid black;
+	margin: 0 8%;
+}
+
+/*Image Formatting*/
+.logo {
+	padding-left: 3%;
+}
+
+.rectangle {
+	text-align: center;
+}
+
+.circle {
+	text-align: right;
+}
+/*Footer Section*/
+footer {
+	margin: 0 8%;
+}
+.copyright {
+	padding: 20px 0;
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+.pe {
+	margin-top: 20px;
+}
+
+#contact {
+	margin-bottom: 5px;
+}
